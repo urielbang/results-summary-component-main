@@ -80,6 +80,7 @@ body {
 .txtMain p {
   color: white;
   font-size: 25px;
+  text-transform: ;
 }
 .txtBottom {
   display: flex;
@@ -106,25 +107,58 @@ body {
   width: 85%;
   border-radius: 5px;
   height: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 .memory {
   background-color: hsla(39, 100%, 56%, 0.14);
   width: 85%;
   border-radius: 5px;
   height: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 .verbal {
   background-color: hsl(166, 100%, 37%, 0.14);
   width: 85%;
   border-radius: 5px;
   height: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 .visual {
   background-color: hsl(234, 85%, 45%, 0.14);
   width: 85%;
   border-radius: 5px;
   height: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 .txtSummry {
   width: 80%;
+}
+.txtSummry p {
+  font-weight: 800;
+}
+.reactinLEft {
+  display: flex;
+  gap: 5px;
+  color: hsla(0, 100%, 67%);
+  font-weight: 800;
+}
+.rateReat {
+  font-weight: 800;
+}
+.ratReactionspan {
+  color: rgba(0, 0, 0, 0.299);
+}
+.memoryLeft {
+  display: flex;
+  gap: 5px;
+}
+.leftVerbal {
+  display: flex;
+}
+.leftVisual {
+  display: flex;
 }
