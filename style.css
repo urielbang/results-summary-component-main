@@ -20,8 +20,8 @@ body {
 .card {
   width: 40%;
   height: 50%;
+  background-color: white;
 
-  overflow: hidden;
   display: flex;
 }
 .cardLeft {
@@ -33,10 +33,14 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 .cardRight {
   width: 50%;
   height: 100%;
+
+  border-radius: 10%;
+  box-shadow: 10px 5px 10px rgba(10, 201, 222, 0.223);
 }
 .titleRuslt {
   color: rgba(255, 255, 255, 0.637);
