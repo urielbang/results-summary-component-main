@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -13,17 +16,22 @@
   align-items: center;
 }
 .card {
-  width: 50%;
-  height: 65%;
+  width: 40%;
+  height: 50%;
 
-  border-radius: 5%;
   overflow: hidden;
   display: flex;
 }
 .cardLeft {
   width: 50%;
   height: 100%;
-  background-color: purple;
+  border-radius: 10%;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(283, 96%, 33%),
+    hsla(256, 72%, 46%, 1),
+    hsl(241, 81%, 54%)
+  );
 }
 .cardRight {
   width: 50%;
